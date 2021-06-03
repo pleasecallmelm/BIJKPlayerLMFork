@@ -37,6 +37,11 @@ TODO: Add long description of the pod here.
   s.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
   s.libraries   = "bz2", "z", "stdc++"
   
+    #s.requires_arc = true
+
+    #s.prepare_command = <<-CMD
+      #tar -xvf ./IJKMediaPlayer.tar.xz
+    #CMD
   
   # s.resource_bundles = {
   #   'BIJKPlayerLMFork' => ['BIJKPlayerLMFork/Assets/*.png']
