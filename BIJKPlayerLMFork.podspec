@@ -28,9 +28,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/pleasecallmelm/BIJKPlayerLMFork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.platform     = :ios
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'BIJKPlayerLMFork/Classes/**/*'
+  
+  
+  s.frameworks  = "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreVideo", "MobileCoreServices", "OpenGLES", "QuartzCore", "VideoToolbox", "Foundation", "UIKit", "MediaPlayer"
+  s.libraries   = "bz2", "z", "stdc++"
+  
   
   # s.resource_bundles = {
   #   'BIJKPlayerLMFork' => ['BIJKPlayerLMFork/Assets/*.png']
