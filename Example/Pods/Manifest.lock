@@ -1,0 +1,16 @@
+PODS:
+  - BIJKPlayerLMFork (0.1.0)
+
+DEPENDENCIES:
+  - BIJKPlayerLMFork (from `../`)
+
+EXTERNAL SOURCES:
+  BIJKPlayerLMFork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BIJKPlayerLMFork: 026319152aa2665a9b49c664b459f0cae1876c6b
+
+PODFILE CHECKSUM: e9e835b48875e9c6a57c1a32ed7cbd9b5847238c
+
+COCOAPODS: 1.10.1

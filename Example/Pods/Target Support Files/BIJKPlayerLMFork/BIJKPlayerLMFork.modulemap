@@ -1,0 +1,6 @@
+framework module BIJKPlayerLMFork {
+  umbrella header "BIJKPlayerLMFork-umbrella.h"
+
+  export *
+  module * { export * }
+}
